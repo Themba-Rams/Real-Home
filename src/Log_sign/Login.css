@@ -1,17 +1,16 @@
 
 .wrapper{
-    width: 800px;
+    width: 600px;
     height: 600px;
     background: transparent;
     border: 3px solid gold;
-    box-shadow: 16px 16px 15px white;
+    box-shadow: 16px 16px 15px 16px white;
     backdrop-filter: blur(15px);
     color: white;
     position: relative;
-    top: 200px;
+    top: 40px;
     border-radius: 10px;
     padding: 30px 40px;
-
 
 }
 
@@ -92,7 +91,7 @@
     font-weight: 700;
     position: relative;
     top: 10px;
-    left: 70px;
+    left: 60px;
 }
 
 .Loginbtn:hover{
@@ -113,7 +112,7 @@
     font-weight: 700;
     position: relative;
     bottom: 47px;
-    left: 290px;
+    left: 190px;
 
 }
 

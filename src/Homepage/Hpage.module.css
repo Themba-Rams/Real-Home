@@ -23,11 +23,11 @@ body{
 
 .vcontainer{
     width: 65%;
-    height: 25%;
+    height: 16%;
     margin: auto;
     overflow: hidden;
     position: relative;
-    top: 55px;
+    top: 35px;
 }
 
 
@@ -42,8 +42,8 @@ video{
 
 .novatext{
     position: relative;
-    top: 140px;
-    font-size: 30px;
+    top: 60px;
+    font-size: 17px;
     left: 10px;
     background: linear-gradient(to right, black,black,#8c7701);
     color: white;
@@ -61,7 +61,7 @@ video{
     position: relative;
     display: flex;
     justify-content: center;
-    top: 150px;
+    top: 70px;
     gap: 30px;
     border-radius: 10px;
     flex-wrap: wrap;
@@ -72,7 +72,7 @@ video{
 .cardcontainer h2{
     position: absolute;
     top: 340px; 
-    font-size: 25px;
+    font-size: 16px;
     color: rgb(99, 72, 2);
     text-decoration:underline;
   }
@@ -82,7 +82,7 @@ video{
     top:430px;
     background-color: white;
     color:black;
-    font-size: 30px;
+    font-size: 20px;
     padding: 10px 5px 10px;
     display: block;
     width: 150px;
@@ -96,9 +96,9 @@ video{
     background-color: black;
     color: goldenrod;
     transition: all;
-    font-size: 35px;
+    font-size: 25px;
     transition: 1s ease-in;
-    padding: 15px 10px;
+    padding: 11px 10px;
     
 }
 
@@ -114,7 +114,7 @@ video{
     background-color: black;
     color: white;
     width: 30%;
-    height: 700px;
+    height: 600px;
     margin: 10px;
     border-radius: 17px;
 }
@@ -142,10 +142,10 @@ video{
 .card1 p{
     position: relative;
     top: 380px; 
-    font-size: 21px;
+    font-size: 13px;
     white-space: normal; /* Allows text to wrap */
     word-wrap: break-word;
-    left: 15px;
+    left: 1px;
   }
 
 
@@ -160,7 +160,7 @@ video{
 .card2 p{
     position: relative;
     top: 380px; 
-    font-size: 21px;
+    font-size: 10px;
     white-space: normal; /* Allows text to wrap */
     word-wrap: break-word;
     left: 15px;
@@ -177,10 +177,10 @@ video{
 .card3 p{
     position: relative;
     top: 380px; 
-    font-size: 21px;
+    font-size: 15px;
     white-space: normal; /* Allows text to wrap */
     word-wrap: break-word;
-    left: 20px;
+    left: 1px;
     color: white;
 
   }
@@ -198,7 +198,7 @@ video{
 
 .cardimg{
     background-color: goldenrod;
-    height: 310px;
+    height: 300px;
     margin-bottom: 15px;
     background-size: cover;
     border-radius: 17px;
@@ -226,17 +226,17 @@ video{
 .ftitle{
     color: yellow;
     text-shadow: 0 0 10px rgba(7, 7, 7, 0.319), 0 0 15px rgba(11, 11, 11, 0.199), 0 0 20px rgba(0, 0, 0, 0.237);
-    font-size: 80px;
+    font-size: 50px;
     position: relative;
-    top:200px;
-    left:1000px;
+    top:100px;
+    left:600px;
 
 }
 
 .Jimgcontainer{
     position: relative;
-    top:240px;
-    right:540px;
+    top:130px;
+    right:365px;
     width: 28%;
     height: 10px;
 }
@@ -250,8 +250,8 @@ img{
 .Jinfocontainer{
     position: relative;
     width:70%;
-    left:460px;
-    top:230px;
+    left:300px;
+    top:120px;
     height:10px;
 }
 
