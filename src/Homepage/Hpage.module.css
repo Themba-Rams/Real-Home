@@ -205,10 +205,10 @@ video{
 }
 
 .JHB{
-    background-image: url('assets/JHBblack.png');
+    background-image: url('/assets/JHBblack.png');
 }
 .Cape1{
-    background-image: url('assets/Capeblack.png');
+    background-image: url('/assets/Capeblack.png');
 }
 
 .JHB:hover{
@@ -216,7 +216,7 @@ video{
     transition: all 1s ease-in;
 }
 .Cape1:hover{
-    background-image: url('assets/Cape.jpg');
+    background-image: url('/assets/Cape.jpg');
     transition: all 1s ease-in;
 }
 
