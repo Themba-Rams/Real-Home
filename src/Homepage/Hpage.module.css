@@ -5,7 +5,7 @@
 }
 
 body{
-    background-image: url('assets/grey.png');
+    background-image: url('/assets/grey.png');
     background-size: cover;
     width: 100%;
     max-height: fit-content;
@@ -212,7 +212,7 @@ video{
 }
 
 .JHB:hover{
-    background-image: url('assets/JHB.png');
+    background-image: url('/assets/JHB.png');
     transition: all 1s ease-in;
 }
 .Cape1:hover{
