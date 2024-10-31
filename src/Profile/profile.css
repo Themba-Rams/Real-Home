@@ -1,0 +1,95 @@
+.sec1{
+    display: flex;
+    max-width: 72rem;
+    margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.Head{
+    font-size: 80px;
+    text-align: center;
+    margin-top: 9px;
+}
+
+.name{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    color: black;
+    font-size: 33px;
+    border: black 8px;
+    padding: 16px;
+    border-radius: 10px;
+}
+.name:hover{
+    background-color: rgb(241, 128, 128);
+    transition: ease-in-out 1s;
+}
+.email{
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    color: rgb(110, 110, 110);
+    font-size: 33px;
+    border: black 8px;
+    padding: 16px;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.change{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 8px;
+    position: relative;
+    right: 10px;
+}
+
+.span{
+    color: white;
+    font-size: 30px;
+}
+
+.span:hover{
+    color: rgb(255, 255, 0);
+    cursor: pointer;
+    transition: ease-in 0.3s;
+}
+
+
+.d1{
+    width: 100%;
+    position: relative;
+    left: 270px;
+}
+
+.d2{
+    display: flex;
+    justify-content: space-between;
+    white-space: nowrap; 
+    position: relative;
+    left: 20px;
+}
+.lis{
+    width: 100%;
+    font-size: 27px;
+    height: 40px;
+    color: goldenrod;
+    background: linear-gradient(to right, gray,#000000 , #000000, #000000,#000000,gray,gray);
+    position: relative;
+    top: 150px;
+    right: 600px;
+    border-radius: 11px;
+   
+}
+
+.lis:hover{
+    box-shadow: 10px 10px 10px rgb(165, 144, 3);
+    transition: ease-in-out 0.5s;
+}

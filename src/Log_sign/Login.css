@@ -1,9 +1,9 @@
 
 .wrapper{
     width: 800px;
-    height: 500px;
+    height: 600px;
     background: transparent;
-    border: 3px solid yellow;
+    border: 3px solid gold;
     box-shadow: 16px 16px 15px white;
     backdrop-filter: blur(15px);
     color: white;
@@ -126,7 +126,7 @@
 
 .wrapper .registerLink{
     position: relative;
-    top: 40px;
+    top: 60px;
     font-size: 24px;
     text-align: center;
     margin-top: 40px  ;

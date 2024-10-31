@@ -45,9 +45,9 @@ video{
     top: 140px;
     font-size: 30px;
     left: 10px;
-    background: linear-gradient(to right, #000000, #000000,#8c7701);
+    background: linear-gradient(to right, black,black,#8c7701);
     color: white;
-    border: 9px double goldenrod;
+    border: 4px solid goldenrod;
     padding: 13px;
     width: 70%;
     text-align: center;

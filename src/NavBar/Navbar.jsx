@@ -3,8 +3,15 @@ import { Link } from 'react-router-dom';
 import './Navbar.css';
 import { signOut, onAuthStateChanged } from 'firebase/auth'; // Import signOut and onAuthStateChanged
 import { auth } from '../firebase'; // Import auth from your firebase config
+import { useNavigate } from 'react-router-dom';
+
+
+
+
+
 
 function Navbar() {
+    const navigate = useNavigate();
     const [isAuth, setIsAuth] = useState(false);
 
     // Check if user is authenticated on initial render
@@ -36,11 +43,12 @@ function Navbar() {
     return (
         <div className={'bgnav'}>
             <nav className={'navbar'}>
-                <img className={'NLogo'} src="assets/NLogo.png" alt="logo" />
+                <img className={'NLogo'} src="assets/NLogo.png" alt="logo" onClick={()=> navigate("/")}/>
                 <ul>
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/List">Listings</Link></li>
                     <li><Link to="/Agents">Agents</Link></li>
+                    <li><Link to="/Profile">Profile</Link></li>
                 </ul>
                 <li className={'button1'}>
                     {!isAuth 

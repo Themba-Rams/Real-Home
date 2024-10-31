@@ -10,7 +10,7 @@
 
 
 .navbar{
-    background: linear-gradient(to right, #8c7701,#000000 , #000000, #000000,#000000, #8c7701,#8c7701);
+    background: linear-gradient(to right, gray,#000000 , #000000, #000000,#000000,gray,gray);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -44,11 +44,12 @@ nav ul li a {
     left:10px;
     text-decoration: none;
     text-decoration-thickness: 1px ;
+    
 }
 
 nav ul li a:hover{
     box-shadow: 0 10px 20px rgb(248, 239, 3);
-    transition: all 0.7s ease-in;
+    transition: all 0.7s ease-in-out;
 }
 
 
@@ -57,8 +58,14 @@ nav ul li a:hover{
   height: 160%;
   position: relative;
   bottom: 40px;
-  left: 20px;
+  left: 110px;
+  cursor: pointer;
   
+}
+
+.NLogo:hover{
+ border-bottom: 4px solid #FFD700 ;
+ transition: ease-in-out 0.6s;
 }
 
 
