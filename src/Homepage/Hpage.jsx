@@ -1,3 +1,4 @@
+import React from 'react';
 import Founder from "./Founder";
 import { Link } from 'react-router-dom';
 import styles from "./Hpage.module.css";
@@ -10,7 +11,7 @@ function Hpage() {
       </div>
       <div className={styles.novatext}>
         <p>RealHome is a prestigious real estate agency specializing in</p>
-        luxury properties in both Cape Town and Johannesburg.
+        <p>luxury properties in both Cape Town and Johannesburg.</p>
         <p>Curating exquisite homes for discerning buyers who appreciate</p>
         <p>elegance, sophistication, and breathtaking views.</p>
       </div>
@@ -19,7 +20,7 @@ function Hpage() {
           <div className={`${styles.cardimg} ${styles.JHB}`}>
             <h2>Discover Johannesburg Listings RENT/BUY/</h2>
             <p>Luxury properties in Johannesburg feature elegant designs, expansive living spaces, and modern architecture with high-end finishes. Located in prestigious suburbs, these homes provide access to exclusive amenities and vibrant lifestyles.</p>
-           <li><Link to="/List">Explore</Link></li>
+            <li><Link to="/List">Explore</Link></li>
           </div>
         </div>
         <div className={styles.card2}>
@@ -30,9 +31,9 @@ function Hpage() {
           </div>
         </div>
         <div className={styles.card3}>
-          <div className={`${styles.cardimg} ${styles.JHB}`}>
+          <div className={`${styles.cardimg} ${styles.keys}`}>
             <h2>List With Us // JHB & CPT</h2>
-            <p> Luxury .</p>
+           
             <li><Link to="/Login">SELL</Link></li>
           </div>
         </div>

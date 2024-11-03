@@ -1,0 +1,149 @@
+
+
+.Cagents{
+    position: relative;
+    left: 200px;
+    top: 50px;
+    color: gold;
+    
+}
+.Jagents{
+    position: relative;
+    left: 900px;
+    bottom: 1030px;
+    color:gold;
+}
+
+.cardscontainer1{
+position: relative;
+top: 60px;
+left: 180px;
+height: 1000px;
+
+}
+
+.agent1 {
+    background: linear-gradient(black,black,grey,black);
+    border: 5px solid goldenrod;
+    color: white;
+    width: 30%;
+    height: 530px;
+    margin: 30px;
+    border-radius: 15px;
+}
+
+.agent1:hover{
+    background: linear-gradient(black,black,goldenrod,black);
+    transition: ease-in 1.4s;
+}
+
+
+
+.profiledown img {
+   width: 60%;
+   height: 260px;
+   border-radius: 100%;
+   position: relative;
+   left: 100px;
+   top: 10px;
+   border: 3px solid white;
+
+}
+
+.profiletitle{
+    position: relative;
+    left: 120px;
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+}
+
+
+.profiledescription{
+    position: relative;
+    top: 10px;
+    left: 2px;
+    font-size: 12px;
+}
+
+.profilebtn{
+    position: relative;
+    top: 30px;
+    left: 150px;
+    background: black;
+    padding: 6px;
+    border-radius: 8px;
+    text-decoration: none;
+    color: goldenrod;
+}
+
+.profilebtn:hover{
+   font-size: 20px;
+   transition: ease-in-out 1s;
+   background: white;
+   border: 4px solid goldenrod;
+}
+
+.cardscontainer2{
+    position: relative;
+    bottom: 1010px;
+    left: 900px;
+    height: 1000px;
+    
+    }
+
+.formt{
+    position: relative;
+    bottom: 330px;
+    background:linear-gradient(black,gray,black) ;
+    color: goldenrod;
+    width: 30%;
+    text-align: center;
+    border-radius: 15px;
+}
+
+    .contact{
+        position: relative;
+        bottom: 300px;
+        display: flex   ;
+        flex-direction: column;
+        background: linear-gradient(black,gray,black);
+        width: 40%;
+        padding: 20px;
+        border-radius: 15px;
+    }
+
+    .titles{
+        font-size: 26px;
+        color: goldenrod;
+        
+    }
+
+    .inputs{
+        width: 80%;
+        height: 40px;
+    }
+
+    .message{
+        width: 90%;
+        height: 60px;
+        border-radius: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    .send{
+        color: white;
+        background: black;
+        font-size: 25px;
+        padding: 12px;
+        border-radius: 15px;
+        width: 120px;
+        box-shadow: 0 0 10px 10px white;
+    }
+
+    .send:hover{
+        color: black;
+        background: white;  
+        box-shadow: 0 0 10px 10px goldenrod;
+    }
+

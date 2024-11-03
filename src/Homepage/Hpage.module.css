@@ -130,6 +130,12 @@ video{
 
 }
 
+.card3 h2{
+    position: relative;
+    left: 60px;
+    font-size: 20px;
+    top: 400px;
+}
 
 .card1:hover{
     background-color: white;
@@ -220,6 +226,15 @@ video{
     transition: all 1s ease-in;
 }
 
+.keys{
+    background-image: url('/assets/keysblack.png');
+
+}
+
+.keys:hover{
+    background-image: url('/assets/keys.png');
+    transition: all 1s ease-in;
+}
 
 
 
